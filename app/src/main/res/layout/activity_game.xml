@@ -11,7 +11,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="394dp"
-        android:background="#64B2D3"
+        android:background="#9CC0CF"
         android:gravity="center"
         android:paddingTop="15dp">
 
