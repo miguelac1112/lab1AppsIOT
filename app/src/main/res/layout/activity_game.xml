@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameActivity"
+    android:background="#000000"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="394dp"
+        android:background="#64B2D3"
+        android:gravity="center"
+        android:paddingTop="15dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            app:srcCompat="@drawable/antenna" />
+
+        <ImageView
+            android:id="@+id/head"
+            android:layout_width="600dp"
+            android:layout_height="100dp"
+            android:paddingStart="280dp"
+            android:paddingTop="40dp"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/head" />
+
+        <ImageView
+            android:id="@+id/body"
+            android:layout_width="600dp"
+            android:layout_height="200dp"
+            android:paddingStart="280dp"
+            android:paddingTop="97dp"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/body" />
+
+        <ImageView
+            android:id="@+id/armRight"
+            android:layout_width="400dp"
+            android:layout_height="150dp"
+            android:paddingStart="310dp"
+            android:paddingTop="120dp"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/arm_right" />
+
+        <ImageView
+            android:id="@+id/legRight"
+            android:layout_width="380dp"
+            android:layout_height="400dp"
+            android:paddingStart="332dp"
+            android:paddingTop="40dp"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/leg_right" />
+
+        <ImageView
+            android:id="@+id/legLeft"
+            android:layout_width="340dp"
+            android:layout_height="380dp"
+            android:paddingStart="290dp"
+            android:paddingTop="40dp"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/arm_right" />
+
+        <ImageView
+            android:id="@+id/armLeft"
+            android:layout_width="340dp"
+            android:layout_height="265dp"
+            android:paddingStart="300dp"
+            android:paddingTop="0dp"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/leg_right" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/words"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@android:color/white"
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:gravity="center"/>
+
+    <GridView
+        android:id="@+id/letters"
+        android:layout_width="match_parent"
+        android:layout_height="372dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp"
+        android:background="@android:color/black"
+        android:horizontalSpacing="5dp"
+        android:numColumns="5"
+        android:padding="5dp"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="5dp" />
+
+
+</LinearLayout>
