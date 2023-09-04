@@ -28,7 +28,7 @@
             android:layout_height="100dp"
             android:paddingStart="280dp"
             android:paddingTop="40dp"
-            android:visibility="invisible"
+            android:visibility="visible"
             app:srcCompat="@drawable/head" />
 
         <ImageView
@@ -37,43 +37,43 @@
             android:layout_height="200dp"
             android:paddingStart="280dp"
             android:paddingTop="97dp"
-            android:visibility="invisible"
+            android:visibility="visible"
             app:srcCompat="@drawable/body" />
 
         <ImageView
             android:id="@+id/armRight"
             android:layout_width="400dp"
             android:layout_height="150dp"
-            android:paddingStart="310dp"
+            android:paddingStart="330dp"
             android:paddingTop="120dp"
-            android:visibility="invisible"
+            android:visibility="visible"
             app:srcCompat="@drawable/arm_right" />
 
         <ImageView
             android:id="@+id/legRight"
             android:layout_width="380dp"
             android:layout_height="400dp"
-            android:paddingStart="332dp"
+            android:paddingStart="345dp"
             android:paddingTop="40dp"
-            android:visibility="invisible"
+            android:visibility="visible"
             app:srcCompat="@drawable/leg_right" />
 
         <ImageView
             android:id="@+id/legLeft"
-            android:layout_width="340dp"
-            android:layout_height="380dp"
-            android:paddingStart="290dp"
+            android:layout_width="350dp"
+            android:layout_height="400dp"
+            android:paddingStart="308dp"
             android:paddingTop="40dp"
-            android:visibility="invisible"
+            android:visibility="visible"
             app:srcCompat="@drawable/arm_right" />
 
         <ImageView
             android:id="@+id/armLeft"
-            android:layout_width="340dp"
+            android:layout_width="345dp"
             android:layout_height="265dp"
             android:paddingStart="300dp"
             android:paddingTop="0dp"
-            android:visibility="invisible"
+            android:visibility="visible"
             app:srcCompat="@drawable/leg_right" />
 
 
